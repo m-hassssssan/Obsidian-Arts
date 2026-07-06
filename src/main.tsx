@@ -5,7 +5,7 @@ import { TRPCProvider } from "@/providers/trpc"
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter basename={import.meta.env.DEV ? "/" : "/Obsidian-Arts"}>
+  <BrowserRouter basename={import.meta.env.DEV ? "/" : "/name-OA"}>
     <TRPCProvider>
       <App />
     </TRPCProvider>
